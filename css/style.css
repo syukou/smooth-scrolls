@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*-------------------------------------------------------------------------------
+ RESET
+ -------------------------------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol li {
+	list-style: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+img {
+	vertical-align: top;
+	border:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cf {
+	display: inline-table;
+}
+
+.cf:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .cf {
+	height: 1%;
+}
+
+.cf {
+	display: block;
+}
+
+/*-------------------------------------------------------------------------------
+ BASE
+ -------------------------------------------------------------------------------*/
+
+body {
+	background-color: #eeeae5;
+}
+
+.cm-main-wrap {
+	padding: 50px 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.cm-inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.cm-left-contents {
+	position: relative;
+	float: left;
+	width: 220px;
+	margin-right: 28px;
+}
+
+.cm-right-contents {
+	float: right;
+	width: 750px;
+}
+
+.cm-right-contents-inner {
+	padding: 30px;
+	border-right: 1px solid #E8E5E0;
+	border-left: 1px solid #E8E5E0;
+	box-sizing: border-box;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 2px #DDD9D4;
+}
+
+.cm-right-contents-inner + .cm-right-contents-inner {
+	margin-top: 30px;
+}
+
+.cm-sidebox-head {
+	padding-bottom: 4px;
+	border-bottom: 3px solid #000;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.cm-sidebox-list li {
+	border-bottom: 1px solid #cccccc;
+}
+
+.cm-sidebox-list li a {
+	display: block;
+	line-height: 1.5em;
+	margin: 10px 0;
+	padding: 6px 0;
+	color: #666666;
+	font-size: 13px;
+}
+
+.cm-sidebox-list li a.current {
+	padding-left: 15px;
+	border-left: 4px solid #ff8c00;
+	color: #ff8c00;
+	font-weight: bold;
+}
+
+.cm-sidebox-list li a:hover {
+	color: #ff8c00;
+}
