@@ -86,7 +86,7 @@ SYUKOU.COMMON.SIDESCROLL = {
 
 SYUKOU.COMMON.COMPLIANCE_SCROLL = {
 
-	ADJUST_FADE_POSITION : 100,
+	ADJUST_POSITION : 100,
 
 	init : function(){
 		this.setParameters();
@@ -112,7 +112,7 @@ SYUKOU.COMMON.COMPLIANCE_SCROLL = {
 					return;
 				}
 
-				if(_self.$window.scrollTop() > (targetContentTop - _self.ADJUST_FADE_POSITION)){
+				if(_self.$window.scrollTop() > (targetContentTop - _self.ADJUST_POSITION)){
 					_self.$sidenavListTargets.removeClass('current');
 					$myself.addClass('current');
 				}
